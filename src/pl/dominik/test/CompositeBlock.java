@@ -1,7 +1,8 @@
+package pl.dominik.test;
 
 import java.util.List;
 
 public interface CompositeBlock extends Block {
 
-	List getBlocks();
+	List<Block> getBlocks();
 }
